@@ -1,0 +1,9 @@
+Q1) Après avoir flashé la carte, deux partitions aparaissent, l'unde de 34MB, contenant notament des infos pour connecter en série la carte et l'une de 200MB
+
+Q2) Il s'agit des pins GPIO 15 et 14 de la carte
+
+Q3) En laissant le Baudrate sur 115200, et le reste de la configuration par défaut nous arrivons à nous connecter à la carte
+
+Q4) En utilisant un nmap sur mon ordinateur ou un ifconfig depuis cutecom,on obtient l'adresse ip 192.168.1.74, on peut aussi accéder à l'adresse MAC de la carte
+
+Q5) Nous arrivons à nous connecter en user, mais le cd /ls ne semblent pas fonctionner. Nous n'arrivons pas à nous connecter au root.
